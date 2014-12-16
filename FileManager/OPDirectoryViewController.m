@@ -143,7 +143,7 @@
     
     // final initialization of path
     if (!self.path) {
-        self.path = @"/Volumes/Super Pro/Users/olegpochtovy/Documents";
+#pragma        self.path = @"/Volumes/"; // !!!!! add here your file manager root folder
     }
     
     self.tableView.editing = NO; // once the application is booted, we can not edit the cell but when you click on the Edit button in the UINavigationBar we turn on editing
