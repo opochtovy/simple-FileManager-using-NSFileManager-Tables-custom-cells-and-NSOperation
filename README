@@ -1,0 +1,13 @@
+simple-FileManager-using-NSFileManager-Tables-custom-cells-and-NSOperation
+============================================================================
+
+API illustrates blocks, work with NSFileManager, NSOperations and custom cells. 
+
+Key features of the FileManager app:
+
+- Practicing with NSFileManager - the ability to create directories
+- The ability to delete files and directories
+- Sorting of the files and folders: from the top are the folders, sorted by descending name, the files are below, sorted by size
+- Hidden files are not shown in the file manager
+- The file size is shown in detailedTextField of each file's cell
+- Recursive calculation of each folder size using NSOperation in the background thread
